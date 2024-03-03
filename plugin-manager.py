@@ -1,6 +1,9 @@
 # Resources
 
 
+# cache file /root/pluginManager/cache.json
+# data file /root/pluginManager/data.json
+
 #https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app
 #https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app
 
