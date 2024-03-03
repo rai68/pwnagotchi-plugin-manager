@@ -14,3 +14,5 @@ Have versioning, and hashes of previous versions. (SHA265 hashes)
 Allow direct file uploads
 Ownership of plugins.
 Possibly either use github as file host, and or opwngrid. 
+
+Also dependancies for pip and apt
