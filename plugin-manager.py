@@ -1,3 +1,10 @@
+# Resources
+
+
+#https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app
+#https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app
+
+
 
 import pwnagotchi.plugins as plugins
 from flask import abort
@@ -24,7 +31,7 @@ class pluginManager(plugins.Plugin):
         
         
         #first load, changes on each time load.
-        self.db = None
+        self.cache = None
     
         
         #frequently updated
@@ -33,6 +40,12 @@ class pluginManager(plugins.Plugin):
         
     def on_loaded(self):
         logging.info("[Plugin Manager] plugin loading begin")
+        
+        
+        
+        
+        self.loaded = True
+        
         
 
 
