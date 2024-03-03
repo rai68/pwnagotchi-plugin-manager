@@ -35,7 +35,7 @@ class pluginManager(plugins.Plugin):
         
         #first load, changes on each time load.
         self.cache = None
-    
+        self.data = None
         
         #frequently updated
         self.internet = False
