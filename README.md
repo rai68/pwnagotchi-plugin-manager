@@ -10,7 +10,7 @@ This plugin will be the only plugin you need install from a new flash to be able
 
 Plan:
 
-Have versioning, and hashes of previous versions.
+Have versioning, and hashes of previous versions. (SHA265 hashes)
 Allow direct file uploads
 Ownership of plugins.
 Possibly either use github as file host, and or opwngrid. 
